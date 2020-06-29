@@ -1,3 +1,4 @@
+/* Standard HTML Tags */
 * {
 	margin: 0;
 }
@@ -9,10 +10,6 @@ body {
 	text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Varela Round', sans-serif;
-}
-
 nav {
 	text-align: center;
 	margin: auto;
@@ -20,6 +17,14 @@ nav {
 	font-weight: 700;
 	background-color: #5b5656;
 	padding: 1% 0 ;
+}
+
+i {
+	margin-left: 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Varela Round', sans-serif;
 }
 
 nav a {
@@ -34,9 +39,7 @@ nav a:hover {
 color: #f5eaea;
 }
 
-i {
-	margin-left: 5%;
-}
+/* CSS CLass Elements */
 
 .top-half {
 	padding-top: 15%;
@@ -257,6 +260,10 @@ textarea {
 
 @media screen and (max-width: 768px) {
 
+	embed {
+		display: none;
+	}
+
 	#about-me hr {
 		width: 20%;
 		margin: 10% auto;
@@ -290,9 +297,7 @@ textarea {
 		width: 40%;
 	}
 
-	embed {
-		display: none;
-	}
+
 
 	#about-me .about-me-text p {
 		width: 20rem;
@@ -326,11 +331,11 @@ textarea {
 	}
 
 	#about-me .photoshop-row p {
-		font-size: .72rem;
+		font-size: .65rem;
 	}
 
 		#about-me .photoshop-row h3 {
-			font-size: 1rem;
+			font-size: .95rem;
 		}
 
 	#about-me .code-row {
@@ -340,7 +345,7 @@ textarea {
 
 	#about-me .code-row p {
 		width: 100%;
-		font-size: .72rem;
+		font-size: .65rem;
 	}
 
 	#about-me .code-row img {
@@ -349,7 +354,7 @@ textarea {
 	}
 
 	#about-me .code-row h3 {
-		font-size: 1rem;
+		font-size: .95rem;
 	}
 
 	#contact .submit-button {
@@ -358,3 +363,5 @@ textarea {
 		padding: 2%;
 	}
     }
+
+		/* Updated 6/29/2020 11:10am */
