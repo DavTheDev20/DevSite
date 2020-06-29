@@ -1,0 +1,367 @@
+/* Standard HTML Tags */
+* {
+	margin: 0;
+}
+
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	margin: auto;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 700;
+	background-color: #5b5656;
+	padding: 1% 0 ;
+}
+
+i {
+	margin-left: 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Varela Round', sans-serif;
+}
+
+nav a {
+	text-decoration: none;
+	margin: 0 5%;
+	color: #7fcd91;
+	text-shadow: 1px 1px 2px black;
+	font-size: 1.1rem;
+}
+
+nav a:hover {
+color: #f5eaea;
+}
+
+/* CSS CLass Elements */
+
+.top-half {
+	padding-top: 15%;
+	background-color: #4d4646;
+}
+
+.top-half-content {
+	padding-bottom: 17%;
+	line-height: 2;
+	color: #f5eaea;
+	text-shadow: 1px 1px 2px black;
+}
+
+.top-half-content button {
+	border: 2px solid #7fcd91;
+	border-radius: 50px;
+	background-color: #4d4646;
+	cursor: pointer;
+	margin-top: 1%;
+	padding: .6%;
+	width: 6%;
+	font-size: .75rem;
+}
+
+.top-half-content button a {
+	color: #f5eaea;
+	font-size: 1rem;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.top-half-content button:hover {
+	background-color: #7fcd91;
+	box-shadow: 1px 1px 2px black;
+}
+
+#projects {
+	background-color: #f5eaea;
+	padding-bottom: 10%;
+
+}
+
+#projects h1 {
+	padding-top: 3%;
+	color: #4d4646;
+}
+
+#projects .web-teach {
+	margin-top: 5%;
+
+}
+
+#projects .web-teach embed {
+	border: 5px solid black;
+	margin-top: 1%;
+}
+
+#projects .webteach p {
+	display: inline;
+}
+
+#projects a {
+	display: block;
+	text-decoration: none;
+	font-weight: 700;
+	color: #5b5656;
+	font-size: 1.25rem;
+}
+
+#projects a:hover {
+	color: #7fcd91;
+}
+
+#projects button {
+	margin: 8%;
+	border-radius: 50px;
+	border: none;
+	cursor: pointer;
+	padding: 2%;
+	background-color: #4d4646;
+	color: #7fcd91;
+	font-size: 1rem;
+	font-weight: 600;
+	width: 30%;
+	display: none;
+}
+
+#projects button:hover {
+	background-color: #5b5656;
+	box-shadow: 2px 2px 4px black;
+}
+
+#projects .HTML-cheat {
+	margin-top: 5%;
+}
+
+#projects .HTML-cheat a {
+	margin-bottom: 1%;
+}
+
+#about-me {
+	background-color: #4d4646;
+	padding-bottom: 2%;
+	color: #f5eaea;
+}
+
+#about-me p {
+	width: 35%;
+	line-height: 1.5;
+	margin: auto;
+	font-size: 1rem;
+	margin-top: 1.5%;
+	font-weight: 600;
+}
+
+#about-me h1 {
+	padding-top: 1.5%;
+}
+
+#about-me section {
+	margin: 5% auto;
+}
+
+#about-me hr {
+	border: none;
+	border-bottom: 10px dotted #f5eaea;
+	width: 7%;
+	margin: auto;
+}
+
+.skills {
+
+}
+
+.skill-row {
+	padding: 5%;
+}
+
+.photoshop-row {
+	text-align: left;
+}
+
+.photoshop-row h3 {
+	padding-left: .75%;
+	display: inline;
+}
+
+.photoshop-img {
+	float: left;
+	padding-left: 17%;
+}
+
+.code-row {
+	text-align: right;
+}
+
+.code-row h3 {
+	display: inline;
+	padding-right: 2%;
+}
+.code-img {
+	float:right;
+	padding-right: 16%;
+}
+
+#contact {
+	background-color: #f5eaea;
+	padding: 3% 0 7%;
+}
+
+#contact input {
+	border-radius: 50px;
+	box-shadow: 1px 1px 2px black;
+	border: none;
+	margin: 1.25%;
+}
+
+textarea {
+	border-radius: 10px;
+	border: none;
+	box-shadow: 1px 1px 2px black;
+}
+
+#contact h1 {
+	padding-bottom: 5%;
+	color: #4d4646;
+}
+
+.submit-button {
+	padding: .55%;
+	cursor: pointer;
+	background-color: #4d4646;
+	color: #7fcd91;
+	font-size: .8rem;
+	font-weight: 700;
+}
+
+.submit-button:hover {
+	background-color: #5b5656;
+}
+
+#footer {
+	color: #f5eaea;
+	font-weight: 600;
+	background-color: #4d4646;
+	padding: 1.5% 0;
+}
+
+#footer a {
+	color: #7fcd91;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #f5eaea;
+}
+
+
+@media screen and (max-width: 768px) {
+
+	embed {
+		display: none;
+	}
+
+	#about-me hr {
+		width: 20%;
+		margin: 10% auto;
+
+	}
+	nav a {
+		font-size: 1rem;
+		margin: 7%;
+	}
+	.top-half-content button {
+		border: 2px solid #7fcd91;
+		border-radius: 50px;
+		background-color: #4d4646;
+		cursor: pointer;
+		margin-top: 3%;
+		padding: 2%;
+		width: 25%;
+		font-size: .75rem;
+	}
+
+	#projects {
+		padding: 10% 0;
+	}
+
+	#projects a {
+		display: none;
+	}
+
+	#projects button {
+		display: inline;
+		width: 40%;
+	}
+
+
+
+	#about-me .about-me-text p {
+		width: 20rem;
+		font-size: .85rem;
+		margin: auto;
+
+	}
+
+	#about-me h1 {
+		padding-top: 5%;
+	}
+
+	#about-me img {
+
+	}
+
+	#about-me .photoshop-row {
+		margin: 0;
+	}
+
+
+
+	#about-me .skill-row .photoshop-img {
+		margin-right: 2%;
+		width: 40%;
+		display: inline-block;
+	}
+
+	#about-me .photoshop-row p, h3 {
+		width: 100%;
+	}
+
+	#about-me .photoshop-row p {
+		font-size: .65rem;
+	}
+
+		#about-me .photoshop-row h3 {
+			font-size: .95rem;
+		}
+
+	#about-me .code-row {
+		text-align: right;
+
+	}
+
+	#about-me .code-row p {
+		width: 100%;
+		font-size: .65rem;
+	}
+
+	#about-me .code-row img {
+		width: 40%;
+		margin-left: 2%;
+	}
+
+	#about-me .code-row h3 {
+		font-size: .95rem;
+	}
+
+	#contact .submit-button {
+		width: 15%;
+		margin-top: 5%;
+		padding: 2%;
+	}
+    }
+
+		/* Updated 6/29/2020 11:10am */
