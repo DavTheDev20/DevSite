@@ -52,6 +52,10 @@ embed {
 
 }
 
+textarea {
+  margin-top: .5%;
+}
+
 /* CSS & ID CLass Elements */
 .top-half {
   padding-top: 15%;
@@ -177,6 +181,8 @@ padding: 1%;
 
 #about-me h1 {
   padding-top: 1.5%;
+  text-shadow: 1px 1px 2px black;
+
 }
 
 #about-me section {
@@ -336,8 +342,6 @@ textarea {
     text-shadow: 1px 1px 2px black;
   }
 
-  #about-me img {}
-
   #about-me .photoshop-row {
     margin: auto;
   }
@@ -386,4 +390,4 @@ textarea {
   }
 }
 
-/* Updated 7/5/2020 9:07pm */
+/* Updated 8/24/2020 9:16pm */
